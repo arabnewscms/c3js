@@ -23,6 +23,7 @@ class C3js extends ServiceProvider {
 		$c3jdata .= '<script type="text/javascript">';
 		$c3jdata .= 'var chart_'.$var_name.' = c3.generate({bindto: "'.$chart_name.'",'.$data.'});';
 		$c3jdata .= '</script>';
+		return $c3jdata;
 
 	}
 }
