@@ -7,6 +7,14 @@ easy way to make Chart with C3js
 
 `composer require phpanonymous/c3js`
 
+# publish provider 
+
+
+` php artisan vendor:publish --provider="Phpanonymous\C3JS\C3JSProvider" `
+or  
+` php artisan vendor:publish ` 
+and choose c3js package number in your list
+
 # usage 
 provide this on your header or footer 
 make sure to use jquery library 
