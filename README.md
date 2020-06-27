@@ -3,6 +3,12 @@ c3js charts and graph
 easy way to make Chart with C3js 
 #Free Package To Make Your KPI and Charts By PHPanonymous (Mahmoud Ibrahim)
 
+
+
+![alt text](https://raw.githubusercontent.com/arabnewscms/c3js/master/Screenshot%20at%20Jun%2027%2023-02-54.png)
+
+
+
 # installation 
 
 `composer require phpanonymous/c3js`
