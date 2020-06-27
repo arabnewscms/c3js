@@ -1,0 +1,42 @@
+{
+	"name":"phpanonymous/c3js",
+	"description": "C3JS By phpanonymous (Mahmoud Ibrahim) ",
+	"type":"package",
+	"license": "MIT",
+	"keywords":["laravel","It application With It-platinum","php"],
+	"authors":[
+	{
+		"name":"Mahmoud Ibrahim",
+		"email":"it@phpanonymous.com",
+		"homepage":"https://it.phpanonymous.com"
+	}
+	],
+	"require":{
+		"php": ">= 7.2",
+		"laravel/framework": "^7.0"
+	},
+ 
+
+	"autoload":{
+		"psr-4":{
+			"Phpanonymous\\C3JS\\":"c3js/"
+		}
+	},
+	"extra": {
+    "branch-alias": {
+            "dev-master": "1.0.0.x-dev"
+    },
+        "laravel": {
+            "providers": [
+                "Phpanonymous\\C3JS\\C3JSProvider"
+            ],
+            "aliases": {
+              "C3js" :  "Phpanonymous\\C3JS\\C3js"
+              
+            }
+        }
+  },
+	"version":"1.0.0",
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
