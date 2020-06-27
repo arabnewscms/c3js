@@ -12,16 +12,16 @@ class C3js extends ServiceProvider {
 		return $asset;
 	}
 
-	public static function widget($data, $chart_name = null) {
-
-		$data       = json_encode($data);
-		$chart_name = $chart_name === null?'#chart_'.rand(0000, 999999):$chart_name;
-		$var_name   = rand(0000, 999999);
+	public static function widget($data) {
+		$name     = str_replace('#', '', $data['bindto']);
+		$name     = str_replace('.', '', $name);
+		$data     = json_encode($data);
+		$var_name = rand(0000, 999999);
 
 		$c3jdata = '';
-		$c3jdata .= '<div id="'.$chart_name.'"></div>';
+		$c3jdata .= '<div id="'.$name.'"></div>';
 		$c3jdata .= '<script type="text/javascript">';
-		$c3jdata .= 'var chart_'.$var_name.' = c3.generate({bindto: "'.$chart_name.'",'.$data.'});';
+		$c3jdata .= 'var chart_'.$var_name.' = c3.generate('.$data.');';
 		$c3jdata .= '</script>';
 		return $c3jdata;
 	}
