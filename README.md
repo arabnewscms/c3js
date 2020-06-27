@@ -1,4 +1,4 @@
-# c3js
+# c3js on laravel version 7
 c3js charts and graph 
 easy way to make Chart with C3js 
 #Free Package To Make Your KPI and Charts By PHPanonymous (Mahmoud Ibrahim)
