@@ -12,7 +12,7 @@ class C3js extends ServiceProvider {
 		return $asset;
 	}
 
-	public function widget($data, $chart_name = null) {
+	public static function widget($data, $chart_name = null) {
 
 		$data       = json_encode($data);
 		$chart_name = $chart_name === null?'#chart_'.rand(0000, 999999):$chart_name;
