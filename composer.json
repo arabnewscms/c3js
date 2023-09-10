@@ -11,8 +11,6 @@
 		"homepage":"https://it.phpanonymous.com"
 	}
 	],
- 
-
 	"autoload":{
 		"psr-4":{
 			"Phpanonymous\\C3JS\\":"c3js/"
@@ -20,7 +18,7 @@
 	},
 	"extra": {
     "branch-alias": {
-            "dev-master": "0.0.9.x-dev"
+            "dev-master": "0.0.10.x-dev"
     },
         "laravel": {
             "providers": [
@@ -28,11 +26,8 @@
             ],
             "aliases": {
               "C3js" :  "Phpanonymous\\C3JS\\C3js"
-              
             }
         }
   },
-    "version":"0.0.9",
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "version":"0.0.10"
 }
