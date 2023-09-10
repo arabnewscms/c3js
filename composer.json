@@ -11,9 +11,7 @@
 		"homepage":"https://it.phpanonymous.com"
 	}
 	],
-	 "require":{
-		"laravel/framework":"*"
-	 },
+ 
 
 	"autoload":{
 		"psr-4":{
