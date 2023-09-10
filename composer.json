@@ -11,9 +11,7 @@
 		"homepage":"https://it.phpanonymous.com"
 	}
 	],
-	"require":{
-		"laravel/framework": "^8|^9|^10"
-	},
+	 
  
 
 	"autoload":{
