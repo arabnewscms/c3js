@@ -32,7 +32,7 @@
             }
         }
   },
-	"version":"0.0.9",
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "version":"0.0.9",
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
